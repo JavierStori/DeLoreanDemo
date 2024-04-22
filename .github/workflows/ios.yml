@@ -13,6 +13,10 @@ jobs:
     name: Build and Test default scheme using any available iPhone simulator
     runs-on: macos-latest
 
+    env:
+      DESIGN_SYSTEM_REPO: github.com/credifranco/Design-System-iOS
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
@@ -23,6 +27,10 @@ jobs:
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
+      
+    - name: Prepare Design System repo
+      run: git config --global url.https://$GH_TOKEN@github.com/.insteadOf https://github.com/
+      
     - name: Build
       env:
         scheme: ${{ 'default' }}
