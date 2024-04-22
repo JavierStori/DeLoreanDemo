@@ -2,34 +2,41 @@ name: Swift Build Check
 
 on:
   push:
-    branches: 
-     - main
+    branches: [main]
   pull_request:
-    branches:
-      - main  # La rama de integración, ajusta según tu configuración
+    branches: [main]
+
+  workflow_dispatch:
 
 jobs:
-  build:
-    name: Build and Test default scheme using any available iPhone simulator
-    runs-on: macos-latest
-
+  deploy:
+    runs-on: macos-14
+    
     env:
       DESIGN_SYSTEM_REPO: github.com/credifranco/Design-System-iOS
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
       
+      
+    - name: Setup Xcode version
+      uses: maxim-lobanov/setup-xcode@v1.5.1
+      with:
+        xcode-version: latest
+
+    - name: Prepare Design System repo
+      run: git config --global url.https://$GH_TOKEN@github.com/.insteadOf https://github.com/
+
     - name: Set Default Scheme
       run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
-      
-    - name: Prepare Design System repo
-      run: git config --global url.https://$GH_TOKEN@github.com/.insteadOf https://github.com/
       
     - name: Build
       env:
