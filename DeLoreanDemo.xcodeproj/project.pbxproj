@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13979CE62BD6FDD10027CFE3 /* Design-System-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 13979CE52BD6FDD10027CFE3 /* Design-System-iOS */; };
 		13C2B6792BC6082A003C90E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6782BC6082A003C90E7 /* AppDelegate.swift */; };
 		13C2B6822BC6082B003C90E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C2B6812BC6082B003C90E7 /* Assets.xcassets */; };
 		13C2B6852BC6082B003C90E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C2B6832BC6082B003C90E7 /* LaunchScreen.storyboard */; };
@@ -96,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13979CE62BD6FDD10027CFE3 /* Design-System-iOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +238,7 @@
 			);
 			name = DeLoreanDemo;
 			packageProductDependencies = (
+				13979CE52BD6FDD10027CFE3 /* Design-System-iOS */,
 			);
 			productName = DeLoreanDemo;
 			productReference = 13C2B6752BC6082A003C90E7 /* DeLoreanDemo.app */;
@@ -310,6 +313,7 @@
 			);
 			mainGroup = 13C2B66C2BC60829003C90E7;
 			packageReferences = (
+				13979CE42BD6FDD10027CFE3 /* XCRemoteSwiftPackageReference "Design-System-iOS" */,
 			);
 			productRefGroup = 13C2B6762BC6082A003C90E7 /* Products */;
 			projectDirPath = "";
@@ -547,10 +551,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeLoreanDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StoriDeLorean;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Configura los permisos de tu celular para poder acceder a tu calendario y activar recordatorios.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Será necesario para:\n\n-Capturar tu INE\n-Comprobar tu identidad\n-Tomar foto de tu comprobante de domicilio. (En caso de ser necesario)";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Los permisos brindan el cálculo del crédito que te ofreceremos. Protegemos tus datos de cualquier utilización externa de Stori.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Por favor verifique la cara";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Necesitamos acceso a tu micrófono para poder verificar tu identidad";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Use el sensor de movimiento para obtener la orientación del teléfono";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Para continuar con el proceso de subir  tu comprobante. Stori necesita que otorgues permiso a tus fotos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Acepto que Stori identifique mi dispositivo para ofrecerme una línea de crédito personalizada";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenNewDesign;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +581,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -576,10 +598,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeLoreanDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StoriDeLorean;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Configura los permisos de tu celular para poder acceder a tu calendario y activar recordatorios.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Será necesario para:\n\n-Capturar tu INE\n-Comprobar tu identidad\n-Tomar foto de tu comprobante de domicilio. (En caso de ser necesario)";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Los permisos brindan el cálculo del crédito que te ofreceremos. Protegemos tus datos de cualquier utilización externa de Stori.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Por favor verifique la cara";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Necesitamos acceso a tu micrófono para poder verificar tu identidad";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Use el sensor de movimiento para obtener la orientación del teléfono";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Para continuar con el proceso de subir  tu comprobante. Stori necesita que otorgues permiso a tus fotos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Acepto que Stori identifique mi dispositivo para ofrecerme una línea de crédito personalizada";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenNewDesign;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,7 +628,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -708,6 +748,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13979CE42BD6FDD10027CFE3 /* XCRemoteSwiftPackageReference "Design-System-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/credifranco/Design-System-iOS";
+			requirement = {
+				branch = "DeLorean-2";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13979CE52BD6FDD10027CFE3 /* Design-System-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13979CE42BD6FDD10027CFE3 /* XCRemoteSwiftPackageReference "Design-System-iOS" */;
+			productName = "Design-System-iOS";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 13C2B66D2BC60829003C90E7 /* Project object */;
 }
