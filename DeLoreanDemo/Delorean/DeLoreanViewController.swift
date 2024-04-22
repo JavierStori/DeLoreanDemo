@@ -24,6 +24,8 @@ class DeLoreanViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         interactor.getDeLoreanData()
+        
+        print("ejemplo")
     }
     
     override func viewWillAppear(_ animated: Bool) {
