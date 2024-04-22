@@ -16,12 +16,7 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
-
-    - name: Set up Swift
-      uses: SwiftActions/setup-swift@v1
-      with:
-        swift-version: '5.5'  # Ajusta la versión de Swift según tu proyecto
-
+      
     - name: Set Default Scheme
       run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
