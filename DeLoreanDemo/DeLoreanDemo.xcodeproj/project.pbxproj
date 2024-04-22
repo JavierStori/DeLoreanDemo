@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132A03402BD30CDB00F346DF /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03072BD30CDB00F346DF /* FAQModel.swift */; };
+		132A03412BD30CDB00F346DF /* DeLoreanLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A030A2BD30CDB00F346DF /* DeLoreanLabelModel.swift */; };
+		132A03422BD30CDB00F346DF /* DeLoreanContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A030C2BD30CDB00F346DF /* DeLoreanContainerViewModel.swift */; };
+		132A03432BD30CDB00F346DF /* DeLoreanPrimaryButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A030E2BD30CDB00F346DF /* DeLoreanPrimaryButtonModel.swift */; };
+		132A03442BD30CDB00F346DF /* DeLoreanIconButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A030F2BD30CDB00F346DF /* DeLoreanIconButtonModel.swift */; };
+		132A03452BD30CDB00F346DF /* DeLoreanSecondaryButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03102BD30CDB00F346DF /* DeLoreanSecondaryButtonModel.swift */; };
+		132A03462BD30CDB00F346DF /* DeLoreanTextInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03122BD30CDB00F346DF /* DeLoreanTextInputModel.swift */; };
+		132A03472BD30CDB00F346DF /* StoriLabelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03142BD30CDB00F346DF /* StoriLabelType.swift */; };
+		132A03482BD30CDB00F346DF /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03152BD30CDB00F346DF /* NSAttributedString.swift */; };
+		132A03492BD30CDB00F346DF /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03162BD30CDB00F346DF /* NSMutableAttributedString.swift */; };
+		132A034A2BD30CDB00F346DF /* NSParagraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03172BD30CDB00F346DF /* NSParagraphStyle.swift */; };
+		132A034B2BD30CDB00F346DF /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03182BD30CDB00F346DF /* UIFont.swift */; };
+		132A034C2BD30CDB00F346DF /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03192BD30CDB00F346DF /* UILabel.swift */; };
+		132A034D2BD30CDB00F346DF /* DeLoreanLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A031D2BD30CDB00F346DF /* DeLoreanLabel.swift */; };
+		132A034E2BD30CDB00F346DF /* StoriDSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A031E2BD30CDB00F346DF /* StoriDSLabel.swift */; };
+		132A034F2BD30CDB00F346DF /* StoriPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A031F2BD30CDB00F346DF /* StoriPaddingLabel.swift */; };
+		132A03502BD30CDB00F346DF /* DeLoreanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03212BD30CDB00F346DF /* DeLoreanContainerView.swift */; };
+		132A03512BD30CDB00F346DF /* DeLoreanSecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03232BD30CDB00F346DF /* DeLoreanSecondaryButton.swift */; };
+		132A03522BD30CDB00F346DF /* DeLoreanPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03242BD30CDB00F346DF /* DeLoreanPrimaryButton.swift */; };
+		132A03532BD30CDB00F346DF /* DeLoreanIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03252BD30CDB00F346DF /* DeLoreanIconButton.swift */; };
+		132A03542BD30CDB00F346DF /* DeloreanTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03272BD30CDB00F346DF /* DeloreanTextInput.swift */; };
+		132A03552BD30CDB00F346DF /* Design_System_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03282BD30CDB00F346DF /* Design_System_iOS.swift */; };
+		132A03562BD30CDB00F346DF /* DeLoreanButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A032C2BD30CDB00F346DF /* DeLoreanButtonType.swift */; };
+		132A03572BD30CDB00F346DF /* DeLoreanColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A032F2BD30CDB00F346DF /* DeLoreanColors.swift */; };
+		132A03582BD30CDB00F346DF /* DeloreanColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132A03302BD30CDB00F346DF /* DeloreanColors.xcassets */; };
+		132A03592BD30CDB00F346DF /* DeloreanSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03322BD30CDB00F346DF /* DeloreanSystem.swift */; };
+		132A035A2BD30CDB00F346DF /* DeloreanGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03332BD30CDB00F346DF /* DeloreanGrey.swift */; };
+		132A035B2BD30CDB00F346DF /* DeloreanText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03342BD30CDB00F346DF /* DeloreanText.swift */; };
+		132A035C2BD30CDB00F346DF /* DeloreanPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03352BD30CDB00F346DF /* DeloreanPrimary.swift */; };
+		132A035D2BD30CDB00F346DF /* DeloreanTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03362BD30CDB00F346DF /* DeloreanTheme.swift */; };
+		132A035E2BD30CDB00F346DF /* DeloreanStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03372BD30CDB00F346DF /* DeloreanStyle.swift */; };
+		132A035F2BD30CDB00F346DF /* DeLoreanTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A03392BD30CDB00F346DF /* DeLoreanTypography.swift */; };
+		132A03602BD30CDB00F346DF /* ComponentAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A033B2BD30CDB00F346DF /* ComponentAssets.swift */; };
+		132A03612BD30CDB00F346DF /* ComponentAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132A033C2BD30CDB00F346DF /* ComponentAssets.xcassets */; };
+		132A03622BD30CDB00F346DF /* StoriAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132A033D2BD30CDB00F346DF /* StoriAssets.xcassets */; };
+		132A03632BD30CDB00F346DF /* StoriAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A033E2BD30CDB00F346DF /* StoriAssets.swift */; };
+		132A03642BD30CDB00F346DF /* DeLorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A033F2BD30CDB00F346DF /* DeLorean.swift */; };
+		13C2B6792BC6082A003C90E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6782BC6082A003C90E7 /* AppDelegate.swift */; };
+		13C2B6822BC6082B003C90E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C2B6812BC6082B003C90E7 /* Assets.xcassets */; };
+		13C2B6852BC6082B003C90E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C2B6832BC6082B003C90E7 /* LaunchScreen.storyboard */; };
+		13C2B6902BC6082B003C90E7 /* DeLoreanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B68F2BC6082B003C90E7 /* DeLoreanDemoTests.swift */; };
+		13C2B69A2BC6082B003C90E7 /* DeLoreanDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6992BC6082B003C90E7 /* DeLoreanDemoUITests.swift */; };
+		13C2B69C2BC6082B003C90E7 /* DeLoreanDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B69B2BC6082B003C90E7 /* DeLoreanDemoUITestsLaunchTests.swift */; };
+		13C2B6B02BC60A9E003C90E7 /* DeLoreanPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6A92BC60A9E003C90E7 /* DeLoreanPresenter.swift */; };
+		13C2B6B12BC60A9E003C90E7 /* DeLoreanWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AA2BC60A9E003C90E7 /* DeLoreanWorker.swift */; };
+		13C2B6B22BC60A9E003C90E7 /* DeLoreanRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AB2BC60A9E003C90E7 /* DeLoreanRouter.swift */; };
+		13C2B6B32BC60A9E003C90E7 /* DeLoreanVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AC2BC60A9E003C90E7 /* DeLoreanVIPER.swift */; };
+		13C2B6B42BC60A9E003C90E7 /* DeLoreanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AD2BC60A9E003C90E7 /* DeLoreanModels.swift */; };
+		13C2B6B52BC60A9E003C90E7 /* DeLoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AE2BC60A9E003C90E7 /* DeLoreanViewController.swift */; };
+		13C2B6B62BC60A9E003C90E7 /* DeLoreanInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2B6AF2BC60A9E003C90E7 /* DeLoreanInteractor.swift */; };
+		13D493B22BC739220064DAF1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A12BC739220064DAF1 /* Inter-Medium.ttf */; };
+		13D493B32BC739220064DAF1 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A22BC739220064DAF1 /* Inter-Light.ttf */; };
+		13D493B42BC739220064DAF1 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A32BC739220064DAF1 /* Inter-Thin.ttf */; };
+		13D493B52BC739220064DAF1 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A42BC739220064DAF1 /* Inter-Bold.ttf */; };
+		13D493B62BC739220064DAF1 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A52BC739220064DAF1 /* Inter-Regular.ttf */; };
+		13D493B72BC739220064DAF1 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A62BC739220064DAF1 /* Inter-ExtraBold.ttf */; };
+		13D493B82BC739220064DAF1 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A72BC739220064DAF1 /* Inter-ExtraLight.ttf */; };
+		13D493B92BC739220064DAF1 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A82BC739220064DAF1 /* Inter-Black.ttf */; };
+		13D493BA2BC739220064DAF1 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493A92BC739220064DAF1 /* Inter-SemiBold.ttf */; };
+		13D493BB2BC739220064DAF1 /* F37Hybrid-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493AB2BC739220064DAF1 /* F37Hybrid-Medium.ttf */; };
+		13D493BC2BC739220064DAF1 /* F37Hybrid-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493AC2BC739220064DAF1 /* F37Hybrid-Bold.ttf */; };
+		13D493BD2BC739220064DAF1 /* F37Hybrid-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493AD2BC739220064DAF1 /* F37Hybrid-Light.ttf */; };
+		13D493BE2BC739220064DAF1 /* F37Hybrid-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493AE2BC739220064DAF1 /* F37Hybrid-VF.ttf */; };
+		13D493BF2BC739220064DAF1 /* F37Hybrid-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493AF2BC739220064DAF1 /* F37Hybrid-SemiBold.ttf */; };
+		13D493C02BC739220064DAF1 /* F37Hybrid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493B02BC739220064DAF1 /* F37Hybrid-Regular.ttf */; };
+		13D493C12BC739220064DAF1 /* F37Hybrid-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D493B12BC739220064DAF1 /* F37Hybrid-ExtraLight.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13C2B68C2BC6082B003C90E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C2B66D2BC60829003C90E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C2B6742BC6082A003C90E7;
+			remoteInfo = DeLoreanDemo;
+		};
+		13C2B6962BC6082B003C90E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C2B66D2BC60829003C90E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C2B6742BC6082A003C90E7;
+			remoteInfo = DeLoreanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132A03072BD30CDB00F346DF /* FAQModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
+		132A030A2BD30CDB00F346DF /* DeLoreanLabelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanLabelModel.swift; sourceTree = "<group>"; };
+		132A030C2BD30CDB00F346DF /* DeLoreanContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanContainerViewModel.swift; sourceTree = "<group>"; };
+		132A030E2BD30CDB00F346DF /* DeLoreanPrimaryButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanPrimaryButtonModel.swift; sourceTree = "<group>"; };
+		132A030F2BD30CDB00F346DF /* DeLoreanIconButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanIconButtonModel.swift; sourceTree = "<group>"; };
+		132A03102BD30CDB00F346DF /* DeLoreanSecondaryButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanSecondaryButtonModel.swift; sourceTree = "<group>"; };
+		132A03122BD30CDB00F346DF /* DeLoreanTextInputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanTextInputModel.swift; sourceTree = "<group>"; };
+		132A03142BD30CDB00F346DF /* StoriLabelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriLabelType.swift; sourceTree = "<group>"; };
+		132A03152BD30CDB00F346DF /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		132A03162BD30CDB00F346DF /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
+		132A03172BD30CDB00F346DF /* NSParagraphStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSParagraphStyle.swift; sourceTree = "<group>"; };
+		132A03182BD30CDB00F346DF /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		132A03192BD30CDB00F346DF /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		132A031D2BD30CDB00F346DF /* DeLoreanLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanLabel.swift; sourceTree = "<group>"; };
+		132A031E2BD30CDB00F346DF /* StoriDSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriDSLabel.swift; sourceTree = "<group>"; };
+		132A031F2BD30CDB00F346DF /* StoriPaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriPaddingLabel.swift; sourceTree = "<group>"; };
+		132A03212BD30CDB00F346DF /* DeLoreanContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanContainerView.swift; sourceTree = "<group>"; };
+		132A03232BD30CDB00F346DF /* DeLoreanSecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanSecondaryButton.swift; sourceTree = "<group>"; };
+		132A03242BD30CDB00F346DF /* DeLoreanPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanPrimaryButton.swift; sourceTree = "<group>"; };
+		132A03252BD30CDB00F346DF /* DeLoreanIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanIconButton.swift; sourceTree = "<group>"; };
+		132A03272BD30CDB00F346DF /* DeloreanTextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanTextInput.swift; sourceTree = "<group>"; };
+		132A03282BD30CDB00F346DF /* Design_System_iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design_System_iOS.swift; sourceTree = "<group>"; };
+		132A032C2BD30CDB00F346DF /* DeLoreanButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanButtonType.swift; sourceTree = "<group>"; };
+		132A032F2BD30CDB00F346DF /* DeLoreanColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanColors.swift; sourceTree = "<group>"; };
+		132A03302BD30CDB00F346DF /* DeloreanColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DeloreanColors.xcassets; sourceTree = "<group>"; };
+		132A03322BD30CDB00F346DF /* DeloreanSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanSystem.swift; sourceTree = "<group>"; };
+		132A03332BD30CDB00F346DF /* DeloreanGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanGrey.swift; sourceTree = "<group>"; };
+		132A03342BD30CDB00F346DF /* DeloreanText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanText.swift; sourceTree = "<group>"; };
+		132A03352BD30CDB00F346DF /* DeloreanPrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanPrimary.swift; sourceTree = "<group>"; };
+		132A03362BD30CDB00F346DF /* DeloreanTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanTheme.swift; sourceTree = "<group>"; };
+		132A03372BD30CDB00F346DF /* DeloreanStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeloreanStyle.swift; sourceTree = "<group>"; };
+		132A03392BD30CDB00F346DF /* DeLoreanTypography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLoreanTypography.swift; sourceTree = "<group>"; };
+		132A033B2BD30CDB00F346DF /* ComponentAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentAssets.swift; sourceTree = "<group>"; };
+		132A033C2BD30CDB00F346DF /* ComponentAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComponentAssets.xcassets; sourceTree = "<group>"; };
+		132A033D2BD30CDB00F346DF /* StoriAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StoriAssets.xcassets; sourceTree = "<group>"; };
+		132A033E2BD30CDB00F346DF /* StoriAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriAssets.swift; sourceTree = "<group>"; };
+		132A033F2BD30CDB00F346DF /* DeLorean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeLorean.swift; sourceTree = "<group>"; };
+		13C2B6752BC6082A003C90E7 /* DeLoreanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeLoreanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C2B6782BC6082A003C90E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13C2B6812BC6082B003C90E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C2B6842BC6082B003C90E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13C2B6862BC6082B003C90E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C2B68B2BC6082B003C90E7 /* DeLoreanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeLoreanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C2B68F2BC6082B003C90E7 /* DeLoreanDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanDemoTests.swift; sourceTree = "<group>"; };
+		13C2B6952BC6082B003C90E7 /* DeLoreanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeLoreanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C2B6992BC6082B003C90E7 /* DeLoreanDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanDemoUITests.swift; sourceTree = "<group>"; };
+		13C2B69B2BC6082B003C90E7 /* DeLoreanDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13C2B6A92BC60A9E003C90E7 /* DeLoreanPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanPresenter.swift; sourceTree = "<group>"; };
+		13C2B6AA2BC60A9E003C90E7 /* DeLoreanWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanWorker.swift; sourceTree = "<group>"; };
+		13C2B6AB2BC60A9E003C90E7 /* DeLoreanRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanRouter.swift; sourceTree = "<group>"; };
+		13C2B6AC2BC60A9E003C90E7 /* DeLoreanVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanVIPER.swift; sourceTree = "<group>"; };
+		13C2B6AD2BC60A9E003C90E7 /* DeLoreanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanModels.swift; sourceTree = "<group>"; };
+		13C2B6AE2BC60A9E003C90E7 /* DeLoreanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanViewController.swift; sourceTree = "<group>"; };
+		13C2B6AF2BC60A9E003C90E7 /* DeLoreanInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeLoreanInteractor.swift; sourceTree = "<group>"; };
+		13D493A12BC739220064DAF1 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		13D493A22BC739220064DAF1 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		13D493A32BC739220064DAF1 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		13D493A42BC739220064DAF1 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		13D493A52BC739220064DAF1 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		13D493A62BC739220064DAF1 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13D493A72BC739220064DAF1 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		13D493A82BC739220064DAF1 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		13D493A92BC739220064DAF1 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		13D493AB2BC739220064DAF1 /* F37Hybrid-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-Medium.ttf"; sourceTree = "<group>"; };
+		13D493AC2BC739220064DAF1 /* F37Hybrid-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-Bold.ttf"; sourceTree = "<group>"; };
+		13D493AD2BC739220064DAF1 /* F37Hybrid-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-Light.ttf"; sourceTree = "<group>"; };
+		13D493AE2BC739220064DAF1 /* F37Hybrid-VF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-VF.ttf"; sourceTree = "<group>"; };
+		13D493AF2BC739220064DAF1 /* F37Hybrid-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-SemiBold.ttf"; sourceTree = "<group>"; };
+		13D493B02BC739220064DAF1 /* F37Hybrid-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-Regular.ttf"; sourceTree = "<group>"; };
+		13D493B12BC739220064DAF1 /* F37Hybrid-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "F37Hybrid-ExtraLight.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C2B6722BC6082A003C90E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6882BC6082B003C90E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6922BC6082B003C90E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132A03042BD30CDB00F346DF /* Design-System-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				132A03052BD30CDB00F346DF /* Models */,
+				132A03132BD30CDB00F346DF /* Extensions */,
+				132A031A2BD30CDB00F346DF /* Components */,
+				132A03282BD30CDB00F346DF /* Design_System_iOS.swift */,
+				132A03292BD30CDB00F346DF /* DeLorean */,
+			);
+			name = "Design-System-iOS";
+			path = "../../../../Design-System-iOS/Sources/Design-System-iOS";
+			sourceTree = "<group>";
+		};
+		132A03052BD30CDB00F346DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				132A03062BD30CDB00F346DF /* Molecules */,
+				132A03082BD30CDB00F346DF /* Atoms */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		132A03062BD30CDB00F346DF /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				132A03072BD30CDB00F346DF /* FAQModel.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		132A03082BD30CDB00F346DF /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				132A03092BD30CDB00F346DF /* Label */,
+				132A030B2BD30CDB00F346DF /* Container */,
+				132A030D2BD30CDB00F346DF /* Button */,
+				132A03112BD30CDB00F346DF /* Inputs */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		132A03092BD30CDB00F346DF /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				132A030A2BD30CDB00F346DF /* DeLoreanLabelModel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		132A030B2BD30CDB00F346DF /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				132A030C2BD30CDB00F346DF /* DeLoreanContainerViewModel.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		132A030D2BD30CDB00F346DF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				132A030E2BD30CDB00F346DF /* DeLoreanPrimaryButtonModel.swift */,
+				132A030F2BD30CDB00F346DF /* DeLoreanIconButtonModel.swift */,
+				132A03102BD30CDB00F346DF /* DeLoreanSecondaryButtonModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		132A03112BD30CDB00F346DF /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				132A03122BD30CDB00F346DF /* DeLoreanTextInputModel.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		132A03132BD30CDB00F346DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				132A03142BD30CDB00F346DF /* StoriLabelType.swift */,
+				132A03152BD30CDB00F346DF /* NSAttributedString.swift */,
+				132A03162BD30CDB00F346DF /* NSMutableAttributedString.swift */,
+				132A03172BD30CDB00F346DF /* NSParagraphStyle.swift */,
+				132A03182BD30CDB00F346DF /* UIFont.swift */,
+				132A03192BD30CDB00F346DF /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		132A031A2BD30CDB00F346DF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				132A031B2BD30CDB00F346DF /* Atoms */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		132A031B2BD30CDB00F346DF /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				132A031C2BD30CDB00F346DF /* Label */,
+				132A03202BD30CDB00F346DF /* Container */,
+				132A03222BD30CDB00F346DF /* Button */,
+				132A03262BD30CDB00F346DF /* Inputs */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		132A031C2BD30CDB00F346DF /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				132A031D2BD30CDB00F346DF /* DeLoreanLabel.swift */,
+				132A031E2BD30CDB00F346DF /* StoriDSLabel.swift */,
+				132A031F2BD30CDB00F346DF /* StoriPaddingLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		132A03202BD30CDB00F346DF /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				132A03212BD30CDB00F346DF /* DeLoreanContainerView.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		132A03222BD30CDB00F346DF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				132A03232BD30CDB00F346DF /* DeLoreanSecondaryButton.swift */,
+				132A03242BD30CDB00F346DF /* DeLoreanPrimaryButton.swift */,
+				132A03252BD30CDB00F346DF /* DeLoreanIconButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		132A03262BD30CDB00F346DF /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				132A03272BD30CDB00F346DF /* DeloreanTextInput.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		132A03292BD30CDB00F346DF /* DeLorean */ = {
+			isa = PBXGroup;
+			children = (
+				132A032A2BD30CDB00F346DF /* Component */,
+				132A032D2BD30CDB00F346DF /* Style */,
+				132A033F2BD30CDB00F346DF /* DeLorean.swift */,
+			);
+			path = DeLorean;
+			sourceTree = "<group>";
+		};
+		132A032A2BD30CDB00F346DF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				132A032B2BD30CDB00F346DF /* Size */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		132A032B2BD30CDB00F346DF /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				132A032C2BD30CDB00F346DF /* DeLoreanButtonType.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		132A032D2BD30CDB00F346DF /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				132A032E2BD30CDB00F346DF /* Colors */,
+				132A03372BD30CDB00F346DF /* DeloreanStyle.swift */,
+				132A03382BD30CDB00F346DF /* Typography */,
+				132A033A2BD30CDB00F346DF /* Assets */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		132A032E2BD30CDB00F346DF /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				132A032F2BD30CDB00F346DF /* DeLoreanColors.swift */,
+				132A03302BD30CDB00F346DF /* DeloreanColors.xcassets */,
+				132A03312BD30CDB00F346DF /* Models */,
+				132A03362BD30CDB00F346DF /* DeloreanTheme.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		132A03312BD30CDB00F346DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				132A03322BD30CDB00F346DF /* DeloreanSystem.swift */,
+				132A03332BD30CDB00F346DF /* DeloreanGrey.swift */,
+				132A03342BD30CDB00F346DF /* DeloreanText.swift */,
+				132A03352BD30CDB00F346DF /* DeloreanPrimary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		132A03382BD30CDB00F346DF /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				132A03392BD30CDB00F346DF /* DeLoreanTypography.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		132A033A2BD30CDB00F346DF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				132A033B2BD30CDB00F346DF /* ComponentAssets.swift */,
+				132A033C2BD30CDB00F346DF /* ComponentAssets.xcassets */,
+				132A033D2BD30CDB00F346DF /* StoriAssets.xcassets */,
+				132A033E2BD30CDB00F346DF /* StoriAssets.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		13C2B66C2BC60829003C90E7 = {
+			isa = PBXGroup;
+			children = (
+				13C2B6772BC6082A003C90E7 /* DeLoreanDemo */,
+				13C2B68E2BC6082B003C90E7 /* DeLoreanDemoTests */,
+				13C2B6982BC6082B003C90E7 /* DeLoreanDemoUITests */,
+				13C2B6762BC6082A003C90E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C2B6762BC6082A003C90E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C2B6752BC6082A003C90E7 /* DeLoreanDemo.app */,
+				13C2B68B2BC6082B003C90E7 /* DeLoreanDemoTests.xctest */,
+				13C2B6952BC6082B003C90E7 /* DeLoreanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C2B6772BC6082A003C90E7 /* DeLoreanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13D493D22BC754030064DAF1 /* Demos */,
+				13D4939F2BC7390E0064DAF1 /* Resources */,
+				13C2B6A82BC60A8B003C90E7 /* Delorean */,
+				13C2B6782BC6082A003C90E7 /* AppDelegate.swift */,
+				13C2B6812BC6082B003C90E7 /* Assets.xcassets */,
+				13C2B6832BC6082B003C90E7 /* LaunchScreen.storyboard */,
+				13C2B6862BC6082B003C90E7 /* Info.plist */,
+			);
+			path = DeLoreanDemo;
+			sourceTree = "<group>";
+		};
+		13C2B68E2BC6082B003C90E7 /* DeLoreanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13C2B68F2BC6082B003C90E7 /* DeLoreanDemoTests.swift */,
+			);
+			path = DeLoreanDemoTests;
+			sourceTree = "<group>";
+		};
+		13C2B6982BC6082B003C90E7 /* DeLoreanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13C2B6992BC6082B003C90E7 /* DeLoreanDemoUITests.swift */,
+				13C2B69B2BC6082B003C90E7 /* DeLoreanDemoUITestsLaunchTests.swift */,
+			);
+			path = DeLoreanDemoUITests;
+			sourceTree = "<group>";
+		};
+		13C2B6A82BC60A8B003C90E7 /* Delorean */ = {
+			isa = PBXGroup;
+			children = (
+				13C2B6A92BC60A9E003C90E7 /* DeLoreanPresenter.swift */,
+				13C2B6AA2BC60A9E003C90E7 /* DeLoreanWorker.swift */,
+				13C2B6AB2BC60A9E003C90E7 /* DeLoreanRouter.swift */,
+				13C2B6AC2BC60A9E003C90E7 /* DeLoreanVIPER.swift */,
+				13C2B6AD2BC60A9E003C90E7 /* DeLoreanModels.swift */,
+				13C2B6AE2BC60A9E003C90E7 /* DeLoreanViewController.swift */,
+				13C2B6AF2BC60A9E003C90E7 /* DeLoreanInteractor.swift */,
+			);
+			path = Delorean;
+			sourceTree = "<group>";
+		};
+		13D4939F2BC7390E0064DAF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13D493AA2BC739220064DAF1 /* F37Hybrid */,
+				13D493A02BC739220064DAF1 /* Intern */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13D493A02BC739220064DAF1 /* Intern */ = {
+			isa = PBXGroup;
+			children = (
+				13D493A12BC739220064DAF1 /* Inter-Medium.ttf */,
+				13D493A22BC739220064DAF1 /* Inter-Light.ttf */,
+				13D493A32BC739220064DAF1 /* Inter-Thin.ttf */,
+				13D493A42BC739220064DAF1 /* Inter-Bold.ttf */,
+				13D493A52BC739220064DAF1 /* Inter-Regular.ttf */,
+				13D493A62BC739220064DAF1 /* Inter-ExtraBold.ttf */,
+				13D493A72BC739220064DAF1 /* Inter-ExtraLight.ttf */,
+				13D493A82BC739220064DAF1 /* Inter-Black.ttf */,
+				13D493A92BC739220064DAF1 /* Inter-SemiBold.ttf */,
+			);
+			path = Intern;
+			sourceTree = "<group>";
+		};
+		13D493AA2BC739220064DAF1 /* F37Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				13D493AB2BC739220064DAF1 /* F37Hybrid-Medium.ttf */,
+				13D493AC2BC739220064DAF1 /* F37Hybrid-Bold.ttf */,
+				13D493AD2BC739220064DAF1 /* F37Hybrid-Light.ttf */,
+				13D493AE2BC739220064DAF1 /* F37Hybrid-VF.ttf */,
+				13D493AF2BC739220064DAF1 /* F37Hybrid-SemiBold.ttf */,
+				13D493B02BC739220064DAF1 /* F37Hybrid-Regular.ttf */,
+				13D493B12BC739220064DAF1 /* F37Hybrid-ExtraLight.ttf */,
+			);
+			path = F37Hybrid;
+			sourceTree = "<group>";
+		};
+		13D493D22BC754030064DAF1 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				132A03042BD30CDB00F346DF /* Design-System-iOS */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C2B6742BC6082A003C90E7 /* DeLoreanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C2B69F2BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemo" */;
+			buildPhases = (
+				13C2B6712BC6082A003C90E7 /* Sources */,
+				13C2B6722BC6082A003C90E7 /* Frameworks */,
+				13C2B6732BC6082A003C90E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeLoreanDemo;
+			packageProductDependencies = (
+			);
+			productName = DeLoreanDemo;
+			productReference = 13C2B6752BC6082A003C90E7 /* DeLoreanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13C2B68A2BC6082B003C90E7 /* DeLoreanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C2B6A22BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemoTests" */;
+			buildPhases = (
+				13C2B6872BC6082B003C90E7 /* Sources */,
+				13C2B6882BC6082B003C90E7 /* Frameworks */,
+				13C2B6892BC6082B003C90E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C2B68D2BC6082B003C90E7 /* PBXTargetDependency */,
+			);
+			name = DeLoreanDemoTests;
+			productName = DeLoreanDemoTests;
+			productReference = 13C2B68B2BC6082B003C90E7 /* DeLoreanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13C2B6942BC6082B003C90E7 /* DeLoreanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C2B6A52BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemoUITests" */;
+			buildPhases = (
+				13C2B6912BC6082B003C90E7 /* Sources */,
+				13C2B6922BC6082B003C90E7 /* Frameworks */,
+				13C2B6932BC6082B003C90E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C2B6972BC6082B003C90E7 /* PBXTargetDependency */,
+			);
+			name = DeLoreanDemoUITests;
+			productName = DeLoreanDemoUITests;
+			productReference = 13C2B6952BC6082B003C90E7 /* DeLoreanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C2B66D2BC60829003C90E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13C2B6742BC6082A003C90E7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13C2B68A2BC6082B003C90E7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13C2B6742BC6082A003C90E7;
+					};
+					13C2B6942BC6082B003C90E7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13C2B6742BC6082A003C90E7;
+					};
+				};
+			};
+			buildConfigurationList = 13C2B6702BC60829003C90E7 /* Build configuration list for PBXProject "DeLoreanDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C2B66C2BC60829003C90E7;
+			packageReferences = (
+			);
+			productRefGroup = 13C2B6762BC6082A003C90E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C2B6742BC6082A003C90E7 /* DeLoreanDemo */,
+				13C2B68A2BC6082B003C90E7 /* DeLoreanDemoTests */,
+				13C2B6942BC6082B003C90E7 /* DeLoreanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C2B6732BC6082A003C90E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D493BF2BC739220064DAF1 /* F37Hybrid-SemiBold.ttf in Resources */,
+				13D493B52BC739220064DAF1 /* Inter-Bold.ttf in Resources */,
+				13C2B6852BC6082B003C90E7 /* LaunchScreen.storyboard in Resources */,
+				13D493C12BC739220064DAF1 /* F37Hybrid-ExtraLight.ttf in Resources */,
+				132A03622BD30CDB00F346DF /* StoriAssets.xcassets in Resources */,
+				13C2B6822BC6082B003C90E7 /* Assets.xcassets in Resources */,
+				13D493BA2BC739220064DAF1 /* Inter-SemiBold.ttf in Resources */,
+				13D493BB2BC739220064DAF1 /* F37Hybrid-Medium.ttf in Resources */,
+				13D493BC2BC739220064DAF1 /* F37Hybrid-Bold.ttf in Resources */,
+				13D493B72BC739220064DAF1 /* Inter-ExtraBold.ttf in Resources */,
+				13D493C02BC739220064DAF1 /* F37Hybrid-Regular.ttf in Resources */,
+				132A03582BD30CDB00F346DF /* DeloreanColors.xcassets in Resources */,
+				13D493B32BC739220064DAF1 /* Inter-Light.ttf in Resources */,
+				13D493B42BC739220064DAF1 /* Inter-Thin.ttf in Resources */,
+				13D493B22BC739220064DAF1 /* Inter-Medium.ttf in Resources */,
+				13D493B92BC739220064DAF1 /* Inter-Black.ttf in Resources */,
+				13D493B82BC739220064DAF1 /* Inter-ExtraLight.ttf in Resources */,
+				13D493BE2BC739220064DAF1 /* F37Hybrid-VF.ttf in Resources */,
+				13D493BD2BC739220064DAF1 /* F37Hybrid-Light.ttf in Resources */,
+				132A03612BD30CDB00F346DF /* ComponentAssets.xcassets in Resources */,
+				13D493B62BC739220064DAF1 /* Inter-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6892BC6082B003C90E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6932BC6082B003C90E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C2B6712BC6082A003C90E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132A03552BD30CDB00F346DF /* Design_System_iOS.swift in Sources */,
+				132A03412BD30CDB00F346DF /* DeLoreanLabelModel.swift in Sources */,
+				132A03422BD30CDB00F346DF /* DeLoreanContainerViewModel.swift in Sources */,
+				132A034F2BD30CDB00F346DF /* StoriPaddingLabel.swift in Sources */,
+				132A034D2BD30CDB00F346DF /* DeLoreanLabel.swift in Sources */,
+				132A03522BD30CDB00F346DF /* DeLoreanPrimaryButton.swift in Sources */,
+				132A03472BD30CDB00F346DF /* StoriLabelType.swift in Sources */,
+				13C2B6B52BC60A9E003C90E7 /* DeLoreanViewController.swift in Sources */,
+				13C2B6B62BC60A9E003C90E7 /* DeLoreanInteractor.swift in Sources */,
+				132A03482BD30CDB00F346DF /* NSAttributedString.swift in Sources */,
+				132A03562BD30CDB00F346DF /* DeLoreanButtonType.swift in Sources */,
+				132A035F2BD30CDB00F346DF /* DeLoreanTypography.swift in Sources */,
+				132A03572BD30CDB00F346DF /* DeLoreanColors.swift in Sources */,
+				132A03462BD30CDB00F346DF /* DeLoreanTextInputModel.swift in Sources */,
+				132A03632BD30CDB00F346DF /* StoriAssets.swift in Sources */,
+				132A03432BD30CDB00F346DF /* DeLoreanPrimaryButtonModel.swift in Sources */,
+				132A034B2BD30CDB00F346DF /* UIFont.swift in Sources */,
+				132A03492BD30CDB00F346DF /* NSMutableAttributedString.swift in Sources */,
+				132A035D2BD30CDB00F346DF /* DeloreanTheme.swift in Sources */,
+				132A03512BD30CDB00F346DF /* DeLoreanSecondaryButton.swift in Sources */,
+				13C2B6B32BC60A9E003C90E7 /* DeLoreanVIPER.swift in Sources */,
+				132A035C2BD30CDB00F346DF /* DeloreanPrimary.swift in Sources */,
+				132A035A2BD30CDB00F346DF /* DeloreanGrey.swift in Sources */,
+				132A03542BD30CDB00F346DF /* DeloreanTextInput.swift in Sources */,
+				13C2B6B42BC60A9E003C90E7 /* DeLoreanModels.swift in Sources */,
+				132A03642BD30CDB00F346DF /* DeLorean.swift in Sources */,
+				132A034A2BD30CDB00F346DF /* NSParagraphStyle.swift in Sources */,
+				13C2B6792BC6082A003C90E7 /* AppDelegate.swift in Sources */,
+				132A03502BD30CDB00F346DF /* DeLoreanContainerView.swift in Sources */,
+				132A03452BD30CDB00F346DF /* DeLoreanSecondaryButtonModel.swift in Sources */,
+				13C2B6B02BC60A9E003C90E7 /* DeLoreanPresenter.swift in Sources */,
+				132A03592BD30CDB00F346DF /* DeloreanSystem.swift in Sources */,
+				132A035B2BD30CDB00F346DF /* DeloreanText.swift in Sources */,
+				132A034C2BD30CDB00F346DF /* UILabel.swift in Sources */,
+				132A03532BD30CDB00F346DF /* DeLoreanIconButton.swift in Sources */,
+				132A034E2BD30CDB00F346DF /* StoriDSLabel.swift in Sources */,
+				132A03442BD30CDB00F346DF /* DeLoreanIconButtonModel.swift in Sources */,
+				13C2B6B12BC60A9E003C90E7 /* DeLoreanWorker.swift in Sources */,
+				132A03402BD30CDB00F346DF /* FAQModel.swift in Sources */,
+				13C2B6B22BC60A9E003C90E7 /* DeLoreanRouter.swift in Sources */,
+				132A03602BD30CDB00F346DF /* ComponentAssets.swift in Sources */,
+				132A035E2BD30CDB00F346DF /* DeloreanStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6872BC6082B003C90E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C2B6902BC6082B003C90E7 /* DeLoreanDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C2B6912BC6082B003C90E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C2B69A2BC6082B003C90E7 /* DeLoreanDemoUITests.swift in Sources */,
+				13C2B69C2BC6082B003C90E7 /* DeLoreanDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13C2B68D2BC6082B003C90E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C2B6742BC6082A003C90E7 /* DeLoreanDemo */;
+			targetProxy = 13C2B68C2BC6082B003C90E7 /* PBXContainerItemProxy */;
+		};
+		13C2B6972BC6082B003C90E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C2B6742BC6082A003C90E7 /* DeLoreanDemo */;
+			targetProxy = 13C2B6962BC6082B003C90E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13C2B6832BC6082B003C90E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C2B6842BC6082B003C90E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13C2B69D2BC6082B003C90E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C2B69E2BC6082B003C90E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C2B6A02BC6082B003C90E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeLoreanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13C2B6A12BC6082B003C90E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeLoreanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		13C2B6A32BC6082B003C90E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeLoreanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeLoreanDemo";
+			};
+			name = Debug;
+		};
+		13C2B6A42BC6082B003C90E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeLoreanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeLoreanDemo";
+			};
+			name = Release;
+		};
+		13C2B6A62BC6082B003C90E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeLoreanDemo;
+			};
+			name = Debug;
+		};
+		13C2B6A72BC6082B003C90E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stori.DeLoreanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeLoreanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C2B6702BC60829003C90E7 /* Build configuration list for PBXProject "DeLoreanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C2B69D2BC6082B003C90E7 /* Debug */,
+				13C2B69E2BC6082B003C90E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C2B69F2BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C2B6A02BC6082B003C90E7 /* Debug */,
+				13C2B6A12BC6082B003C90E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C2B6A22BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C2B6A32BC6082B003C90E7 /* Debug */,
+				13C2B6A42BC6082B003C90E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C2B6A52BC6082B003C90E7 /* Build configuration list for PBXNativeTarget "DeLoreanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C2B6A62BC6082B003C90E7 /* Debug */,
+				13C2B6A72BC6082B003C90E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C2B66D2BC60829003C90E7 /* Project object */;
+}
