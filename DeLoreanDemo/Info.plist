@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>F37Hybrid-Bold.ttf</string>
+		<string>F37Hybrid-ExtraLight.ttf</string>
+		<string>F37Hybrid-Light.ttf</string>
+		<string>F37Hybrid-Medium.ttf</string>
+		<string>F37Hybrid-Regular.ttf</string>
+		<string>F37Hybrid-SemiBold.ttf</string>
+		<string>F37Hybrid-VF.ttf</string>
+		<string>Inter-Black.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-ExtraLight.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Thin.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreenNewDesign</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>StoriDeLorean</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>amazonaws.com</key>
+			<dict>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+			</dict>
+			<key>amazonaws.com.cn</key>
+			<dict>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+			</dict>
+			<key>googleapis.com</key>
+			<dict>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Será necesario para:
+
+-Capturar tu INE
+-Comprobar tu identidad
+-Tomar foto de tu comprobante de domicilio. (En caso de ser necesario)</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Configura los permisos de tu celular para poder acceder a tu calendario y activar recordatorios.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Acepto que Stori identifique mi dispositivo para ofrecerme una línea de crédito personalizada</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Use el sensor de movimiento para obtener la orientación del teléfono</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Por favor verifique la cara</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Los permisos brindan el cálculo del crédito que te ofreceremos. Protegemos tus datos de cualquier utilización externa de Stori.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Necesitamos validar que estás en México, permite el acceso a tu ubicación en la configuración del teléfono</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Para continuar con el proceso de subir  tu comprobante. Stori necesita que otorgues permiso a tus fotos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Necesitamos acceso a tu micrófono para poder verificar tu identidad</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>
